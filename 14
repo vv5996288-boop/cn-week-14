@@ -1,0 +1,19 @@
+How to run Nmap scan. 
+1. Download the Nmap installer. This can be found for free from the developer’s website. It is
+highly recommended that you download directly from the developer to avoid any potential viruses or fake files. Downloading the Nmap installer includes Zenmap, the graphical interface for Nmap which makes it easy for newcomers to perform scans without having to learn command lines.
+The Zenmap program is available for Windows, Linux, and Mac OS X. You can find the installation files for all operating systems on the Nmap website.
+Install Nmap. Run the installer once it is finished downloading. You will be asked which components you would like to install. In order to get the full benefit of Nmap, keep all of these checked. Nmap will not install any adware or spyware.
+Run the "Nmap – Zenmap" GUI program. If you left your settings at default during installation, you should be able to see an icon for it on your desktop. If not, look in your Start menu. Opening Zenmap will start the program.
+Enter in the target for your scan. The Zenmap program makes scanning a fairly simple process. The first step to running a scan is choosing your target. You can enter a domain (example.com), an IP address (127.0.0.1), a network (192.168.1.0/24), or a combination of those.
+Choose your Profile. Profiles are preset groupings of modifiers that change what is scanned. The profiles allow you to quickly select different types of scans without having to type in the modifiers on the command line. Choose the profile that best fits your needs:[1]
+Intense scan - A comprehensive scan. Contains Operating System (OS) detection, version detection, script scanning, traceroute, and has aggressive scan timing. This is considered an intrusive scan.
+Ping scan - This scan simply detects if the targets are online, it does not scan any ports.
+Quick scan - This is quicker than a regular scan due to aggressive timing and only scanning select ports.
+Regular scan - This is the standard Nmap scan without any modifiers. It will
+return ping and return open ports on the target.
+Click Scan to start scanning. The active results of the scan will be displayed in the Nmap Output tab. The time the scan takes will depend on the scan profile you chose, the physical distance to the target, and the target’s network configuration.
+Read your results. Once the scan is finished, you’ll see the message "Nmap done" at the bottom of the Nmap Output tab. You can now check your results, depending on the type of scan you performed. All of the results will be listed in the main Nmap Output tab, but you can use the other tabs to get a better look at specific data.[2]
+Ports/Hosts - This tab will show the results of your port scan, including the services for those ports.
+Topology - This shows the traceroute for the scan you performed. You can see how many hops your data goes through to reach the target.
+Host Details - This shows a summary of your target learned through scans, such as the number of ports, IP addresses, hostnames, operating systems, and more.
+Scans - This tab stores the commands of your previously-run scans. This allows you to quickly re-scan with a specific set of parameter
